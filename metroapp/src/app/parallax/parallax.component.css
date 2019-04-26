@@ -1,0 +1,766 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+@font-face {
+    font-family: "accidental_presidencyregular";
+    src: url("src/assets/font/accid___-webfont.eot");
+    src: 
+    url("src/assets/font/accid___-webfont.woff") format("woff"),
+    url("src/assets/font/accid___-webfont.ttf") format("truetype"),
+    url("src/assets/font/accid___-webfont.svg") format("svg");
+    }
+
+.end{
+        background: #122125;
+        width: 100%;
+        position: fixed;
+        top: 90vh;
+      
+ }
+
+.background{
+    position: absolute;
+    z-index: -10;
+    /*background-color: #d0e7df;*/
+    background: #a095bc; /* Old browsers */
+    background: -moz-linear-gradient(top, #a095bc 1%, #efb799 16%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #a095bc 1%,#efb799 16%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #a095bc 1%,#efb799 16%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a095bc', endColorstr='#efb799',GradientType=0 ); /* IE6-9 */
+    width: 100%;
+    height: 260vh/*200vh*/;
+}
+
+/* PARALLAX SCENARIO*/
+#sol{
+    position: fixed;
+    z-index: -50;
+    top: 80px;
+    left: 100px;;
+    width: 100px;
+    height: 100px;
+    fill:#e9ece9;
+}
+
+#mountains{
+    position: fixed;
+    z-index: -10;
+    top: 40vh;
+    
+    width: 100%;
+
+    fill:#e09397;
+}
+#mountain2{
+    position: fixed;
+    z-index: -10;
+    top:-200px;
+    
+    width: 100%;
+
+    fill:#c47688;
+}
+
+#mountain3{
+    position: fixed;
+    z-index: -11;
+    top:200px;
+    width: 100%;
+    fill:#e09397;
+}
+
+#calle{
+    position: fixed;
+    z-index: -6;
+    top: 380px;
+    width: 100%;
+    fill:#122125;
+}
+
+#estadio{
+    position: fixed;
+    z-index: -9;
+    top:250px;
+    width: 100%;
+    fill:#8f586a;
+}
+
+#foro{
+    position: fixed;
+    z-index: -8;
+    top:250px;
+    width: 100%;
+    fill:#544c5f;
+}
+
+#bicentenario{
+    position: fixed;
+    z-index: -7;
+    top:300px;
+    width: 100%;
+    fill:#2b3949;
+}
+/*END PARALLAX SCENARIO*/
+
+#title{
+    top: 100px;
+    text-align: center;
+    position: fixed;
+    z-index: -7;
+    font-family: 'accidental_presidencyregular',Helvetica;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 64pt;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 10px;
+}
+
+.subtitulo{
+        font-family: 'accidental_presidencyregular',Helvetica;
+        font-weight: normal;
+        font-style: normal;
+        color: white;
+        text-align: center;
+        font-size: 42pt;
+        letter-spacing: 10px;
+        float: none;
+        margin: 0 auto;
+}
+
+.share{
+    position: relative;
+    z-index: 0;
+    top: 240vh;
+}
+
+#icons{
+    font-size:16pt;
+}
+
+.text-small{
+    font-size:10pt;
+}
+
+.text-smallest{
+    font-size:8pt;
+}
+
+.link{ 
+    color:#2b3949;
+    -webkit-transition: ease 0.5s; /* Safari */
+  transition: ease 0.5s;
+}
+
+.link:hover{
+    color:#8f586a;
+}
+.link2{ 
+    color:#d34e7a;
+    -webkit-transition: ease 0.5s; /* Safari */
+  transition: ease 0.5s;
+}
+
+.link2:hover{
+    color:#8f586a;
+}
+
+.link-text{
+    color:#f35e95;
+    -webkit-transition: ease 0.5s; /* Safari */
+  transition: ease 0.5s;
+}
+
+.link-text:hover{
+    color:#c49cf0;
+}
+
+#lineas{
+    position: relative;
+    font-family: 'accidental_presidencyregular',Helvetica !important;
+    font-weight: normal;
+    font-style: normal;
+    top:20px;
+
+  }
+  
+#front-form{
+    position: fixed;
+    z-index: 0;
+    top:315vh;
+    width: 100%;
+
+}
+
+#light-morado{
+    position: fixed;
+    z-index: -1;
+    top:320vh;
+    width: 100%;
+}
+#rose{
+    position: fixed;
+    z-index: -2;
+    top:320vh;
+    width: 100%;
+}
+#back-rose{
+    position: fixed;
+    z-index: -3;
+    top:320vh;
+    width: 100%;
+}
+
+  .fuente-headers{
+    font-family: 'accidental_presidencyregular',Helvetica !important;
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .fuente-body{
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1em;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+  }
+
+  .marca{
+      position: fixed;
+      z-index: 10;
+      top:50vh;
+      font-size: 0.8em;
+      left: 85vw;
+      color: #8f586a;
+  }
+
+  .card{
+      border-color:white;
+      color:white;
+  }
+
+  .size{
+      width: 150px;
+  }
+
+  #tren{
+    width: 200px;
+   fill: #eeeeee; /* Old browsers */
+  }
+  .bkg-linea-metro{
+    background-color: #122125;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'%3E%3Cg fill='%231d343a' fill-opacity='0.4'%3E%3Cpath d='M12 0h18v6h6v6h6v18h-6v6h-6v6H12v-6H6v-6H0V12h6V6h6V0zm12 6h-6v6h-6v6H6v6h6v6h6v6h6v-6h6v-6h6v-6h-6v-6h-6V6zm-6 12h6v6h-6v-6zm24 24h6v6h-6v-6z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+    width: 100%;
+    height: 340px;
+}
+
+#recorrido{
+    position:relative;
+    z-index: 100;
+}
+.white{
+    color:white;
+}
+
+
+    /*NORMAL WIDTH DEVICES (iphone x,xs,pixel2..etc)*/
+
+  @media screen and (min-width: 345px) and (max-width: 481px) {
+    /*PARALLAX SCENARIO*/
+    #sol{           left:200px;   }
+    #mountain2{     top:100px;   }
+    #mountain3{     top:210px;    }
+    #calle{         top: 280px;    }
+    #estadio{       top:212px;    }
+    #foro{          top:230px;    }
+    #bicentenario{  top:250px;    }
+    
+    /* TITULO */
+    #title{
+        top: 100px;
+        letter-spacing: 4pt;
+        font-size: 32pt;
+    }
+    
+    /*DIV CONTENT*/
+    .end{
+        top: 350px;
+    }
+    .card-deck{
+        padding-left: 7vw;
+    }
+
+    #lineas{
+        position: inherit;
+        width: 500vw;
+        left: 5%;
+        bottom: 250px;
+      }
+
+    .bkg-linea-metro{
+        overflow-x:auto;
+        display: inline-block;
+        height: 450px;
+    }
+    #lineas{
+
+        width: 300vw;
+        left: 5%;
+        padding-top:100px;
+      }
+
+  }
+
+/*Celulares chicoss*/
+
+  @media (min-width: 320px) and (max-width: 344px) {
+    
+    #sol{left:200px;   }
+    
+    #mountain2{
+        top:115px;
+    }
+    
+    #mountain3{
+        top:200px;
+    }
+    
+    #calle{
+        top: 280px;
+    }
+    
+    
+    #estadio{
+        top:212px;
+    }
+    
+    #foro{
+        top:230px;
+    }
+    
+    #bicentenario{
+        top:250px;
+    }
+    
+    #title{
+        top: 100px;
+        letter-spacing: 4pt;
+        font-size: 32pt;
+    }
+    
+    .end{
+        top: 350px;
+    }
+
+    .card-deck{
+        padding-left: 1vw;
+    }
+
+    .background{
+        height: 420vh;
+    }
+
+    #lineas{position: relative;
+
+        width: 300vw;
+        left: 5%;
+
+      }
+
+      .bkg-linea-metro{
+          
+        overflow-x:auto;
+        display: inline-block;
+    }
+
+    #front-form{
+        top:624.5vh;
+        width: 100%;
+    }
+    
+    #light-morado{
+        top:624vh;
+        width: 100%;
+    }
+
+    #rose{
+
+        top:442vh;
+        width: 100%;
+    }
+    #back-rose{
+        position: fixed;
+        z-index: -3;
+        top:445vh;
+        width: 100%;
+    }
+
+    .share{ top: 300vh;
+    }
+  }
+
+  /* XLARGE HEIGHT IPHONE DEVICES (XR, XR MAX)*/
+  @media screen and (min-height: 866px) and (max-height: 900px) {
+    #front-form{
+        top:3500px;
+        width: 100%;
+    }
+    
+    #light-morado{
+        top:3530px;
+        width: 100%;
+    }
+
+    #rose{
+        top:3540px;
+        width: 100%;
+    }
+    #back-rose{
+        top:3570px;
+        width: 100%;
+    }
+
+    .share{ top: 270vh;
+    }
+    .background{
+        height: 287vh;
+    }  
+    .bkg-linea-metro{
+        height: 450px;
+    }
+  }
+
+  /* XLARGE HEIGHT ANDROID DEVICES */
+  /*
+    TESTING DEVICES: 412 x 847 / 480 x 853 / 
+  */
+  @media screen and (min-height: 840px) and (max-height: 865px) {
+    #front-form{
+        top:3470px;
+        width: 100%;
+    }
+    #light-morado{
+        top:3530px;
+        width: 100%;
+    }
+    #rose{
+        top:3540px;
+        width: 100%;
+    }
+    #back-rose{
+        top:3570px;
+        width: 100%;
+    }
+    .share{ top: 285vh;    }
+    .background{
+        height: 300vh;
+    }  
+    .bkg-linea-metro{
+        height: 500px;
+    }
+/*  CONFIG 412/847*/
+    @media (min-width: 400px) and (max-width: 430px) {
+        #front-form{
+            top:3470px;
+            width: 100%;
+        }
+        .bkg-linea-metro{
+            height: 450px;
+        }
+        #light-morado{
+            top:3510px;
+            width: 100%;
+        }
+    
+        #rose{
+            top:3540px;
+            width: 100%;
+        }
+        #back-rose{
+            top:3570px;
+            width: 100%;
+        }
+        .card-deck{
+            padding-left: 11vw;
+        }
+    
+
+        }
+/*  CONFIG 480/853*/
+    @media (min-width: 470px) and (max-width: 481px) {
+        #front-form{
+            top:3370px;
+            width: 100%;
+        }
+        .bkg-linea-metro{
+            height: 450px;
+        }
+        #light-morado{
+            top:3410px;
+            width: 100%;
+        }
+    
+        #rose{
+            top:3440px;
+            width: 100%;
+        }
+        #back-rose{
+            top:3470px;
+            width: 100%;
+        }
+        .background{
+            height: 293vh;
+        }  
+        .share{ top: 276vh;
+        }
+        .card-deck{
+            padding-left: 17vw;
+        }
+    
+      }
+  }
+
+
+/* LARGE HEIGHT IOS/ANDROID DEVICES */
+  @media screen and (min-height: 800px) and (max-height: 839px) {
+    #front-form{
+        top:3574px;
+        width: 100%;
+    }
+    
+    #light-morado{
+        top:3600px;
+        width: 100%;
+    }
+
+    #rose{
+        top:3620px;
+        width: 100%;
+    }
+    #back-rose{
+        top:3640px;
+        width: 100%;
+    }
+
+    .share{ top: 300vh;
+    }
+    .background{
+        height: 320vh;
+    }  
+    .bkg-linea-metro{
+        height: 450px;
+    }
+
+    @media (min-width: 385px) and (max-width: 420px) {
+        #front-form{
+            top:3527px;
+            width: 100%;
+        }
+        #light-morado{
+            top:3560px;
+            width: 100%;
+        }
+    
+        #rose{
+            top:3590px;
+            width: 100%;
+        }
+        #back-rose{
+            top:3630px;
+            width: 100%;
+        }
+        .card-deck{
+            padding-left: 10vw;
+        }
+
+        }
+}
+
+/* NORMAL HEIGHT IOS/ANDROID DEVICES */
+  @media screen and (min-height: 725px) and (max-height: 750px) {
+    #front-form{
+        top:3474px;
+        width: 100%;
+    }
+    
+    #light-morado{
+        top:3500px;
+        width: 100%;
+    }
+
+    #rose{
+        top:3520px;
+        width: 100%;
+    }
+    #back-rose{
+        top:3540px;
+        width: 100%;
+    }
+
+    .share{ top: 320vh;
+    }
+    .background{
+        height: 340vh;
+    }  
+    .bkg-linea-metro{
+        height: 450px;
+    }
+    .card-deck{
+        padding-left: 11vw;
+    }
+
+    @media (min-width: 350px) and (max-width: 380px) {
+        #front-form{
+            top:3527px;
+            width: 100%;
+        }
+        #light-morado{
+            top:3560px;
+            width: 100%;
+        }
+    
+        #rose{
+            top:3590px;
+            width: 100%;
+        }
+        #back-rose{
+            top:3620px;
+            width: 100%;
+        }
+        .card-deck{
+            padding-left: 6vw;
+        }
+        .bkg-linea-metro{
+            height: 350px;
+        }
+        }
+}
+
+/* SMALL HEIGHT IOS/ANDROID DEVICES */
+  @media screen and (min-height: 635px) and (max-height: 685px) {
+    #front-form{
+        top:3574px;
+        width: 100%;
+    }
+    
+    #light-morado{
+        top:3600px;
+        width: 100%;
+    }
+
+    #rose{
+        top:3620px;
+        width: 100%;
+    }
+    #back-rose{
+        top:3640px;
+        width: 100%;
+    }
+
+    .share{ top: 354vh;
+    }
+    .background{
+        height: 375vh;
+    }  
+    .bkg-linea-metro{
+        height: 450px;
+    }
+    .card-deck{
+        padding-left: 7vw;
+    }
+
+    @media (min-width: 365px) and (max-width: 380px) {
+        #front-form{
+            top:3527px;
+            width: 100%;
+        }
+        #light-morado{
+            top:3560px;
+            width: 100%;
+        }
+    
+        #rose{
+            top:3590px;
+            width: 100%;
+        }
+        #back-rose{
+            top:3620px;
+            width: 100%;
+        }
+        .card-deck{
+            padding-left: 6vw;
+        }
+        .bkg-linea-metro{
+            height: 400px;
+        }
+        }
+
+        @media (min-width: 340px) and (max-width: 364px) {
+            #front-form{
+                top:3527px;
+                width: 100%;
+            }
+            #light-morado{
+                top:3560px;
+                width: 100%;
+            }
+        
+            #rose{
+                top:3590px;
+                width: 100%;
+            }
+            #back-rose{
+                top:3620px;
+                width: 100%;
+            }
+            .card-deck{
+                padding-left: 6vw;
+            }
+            .bkg-linea-metro{
+                height: 350px;
+            }
+            .background{
+                height: 385vh;
+            }  
+            .share{ top: 364vh;
+            }
+            }
+
+}
+
+/* IPHONE SE/5S/5C/5/SE */
+  @media screen and (min-height: 567px) and (max-height: 570px) {
+    #front-form{
+        top:3535px;
+        width: 100%;
+    }
+    
+    #light-morado{
+        top:3564px;
+        width: 100%;
+    }
+
+    #rose{
+        top:3590px;
+        width: 100%;
+    }
+    #back-rose{
+        top:3620px;
+        width: 100%;
+    }
+
+    .share{ top: 405vh;
+    }
+    .background{
+        height: 430vh;
+    }  
+    .bkg-linea-metro{
+        height: 240px;
+    }
+}
+
+/*UNCOVERED HEIGHTS*/
+

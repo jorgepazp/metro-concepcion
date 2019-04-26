@@ -1,0 +1,11 @@
+
+@media all and (orientation: landscape) { 
+    .spacer{
+        position: relative;
+        width: 100%;
+        height: 25vh;
+        background-color: transparent;
+    }
+    
+}
+

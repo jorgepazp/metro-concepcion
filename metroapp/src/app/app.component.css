@@ -1,0 +1,11 @@
+.background{
+    background-color: #122125;
+    padding:10px;
+}
+
+@media all and (orientation: portrait) { 
+    .background{
+        margin-top:-13vh;
+    }
+    
+}

@@ -1,0 +1,74 @@
+
+<div class="container">
+  <div class="subtitulo">COLABORA</div>
+  <div class="text-center" style="color:#eaeaea;">¿Te parece una idea genial? A nosotros también!.<br> No estás a favor del metro? ¡Qué lástima!<br>
+    <h6>Puedes dejar tu opinión a continuación:</h6>
+  </div>
+ <form>
+    <div class=" justify-content-center text-center">
+
+            <div class="form-group">
+                <label for="rut" class="color-title">RUT</label>
+                <input type="text" class="form-control" id="rut" placeholder="Ingresa tu RUT">
+                <small id="rutHelp" class="form-text text-muted">Necesitamos comprobar que no eres un bot.</small>
+              </div>
+              
+              <div class="form-group">
+                <label for="email" class="color-title">Email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Opcional">
+                <small id="emailHelp" class="form-text text-muted">No te enviaremos spam.</small>
+              </div>
+              
+              <div class="form-group" >
+              <label for="comunas" class="color-title">Selecciona tu comuna:</label>
+              <select id ="comunas" class="custom-select">
+                  <option selected>Concepción </option>
+                  <option value="1">Talcahuano</option>
+                  <option value="2">Hualpén</option>
+                  <option value="3">Chiguayante</option>
+                  <option value="4">San Pedro de la Paz</option>
+                  <option value="5">Lota</option>
+                  <option value="6">Penco</option>
+                  <option value="7">Santa Juana</option>
+                  <option value="8">Tomé</option>
+                  <option value="9">Florida</option>
+                  <option value="10">Hualqui</option>
+                  <option value="11">Coronel</option>
+                  <option value="12">Otra</option>
+                </select>
+              </div>  
+    
+    <label class="color-title" for="sexo">Selecciona tu sexo:</label>
+    <div id= "sexo" class="form-group">
+      <div class="custom-control custom-radio custom-control-inline">
+        <input type="radio" id="hombre" name="sexo" class="custom-control-input">
+        <label class="custom-control-label" for="hombre">Hombre</label>
+      </div>
+      <div class="custom-control custom-radio custom-control-inline">
+         <input type="radio" id="mujer" name="sexo" class="custom-control-input">
+        <label class="custom-control-label" for="mujer">Mujer</label>
+      </div>
+    </div>
+
+    <div class="custom-control custom-radio custom-control-inline">
+      <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+      <label class="custom-control-label" for="customRadioInline1">Toggle this custom radio</label>
+    </div>
+    <div class="custom-control custom-radio custom-control-inline">
+      <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+      <label class="custom-control-label" for="customRadioInline2">Or toggle this other custom radio</label>
+    </div>
+
+    <div class="form-group">
+      <label for="comment">Comentarios:</label>
+      <textarea class="form-control" id="comment" cols="30" rows="7" style ="resize: none;"></textarea>
+    </div>
+        </div>
+
+      <div class="row text-center ">
+        <div class="col"><button type="submit" class="btn btn-primary">Submit</button></div>
+      </div>
+ </form>
+ 
+    
+</div>

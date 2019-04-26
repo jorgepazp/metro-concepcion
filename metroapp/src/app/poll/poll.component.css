@@ -1,0 +1,15 @@
+.subtitulo{
+    font-family: 'accidental_presidencyregular',Helvetica;
+    font-weight: normal;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    font-size: 42pt;
+    letter-spacing: 10px;
+    float: none;
+    margin: 0 auto;
+}
+
+.color-title{
+    color:white;
+}
