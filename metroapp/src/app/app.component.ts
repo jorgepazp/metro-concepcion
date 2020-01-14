@@ -9,5 +9,7 @@ export class AppComponent {
   title = 'metroapp';
   ngOnInit() {
     AOS.init();
+    
   }
+  
 }

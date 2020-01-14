@@ -13,3 +13,28 @@
 .color-title{
     color:white;
 }
+
+.color-poll{
+    color:#ffa8c8;
+}
+
+.btn-primary{
+    background:#ffa8c8;
+    border-color: #ffa8c8;
+}
+
+.btn-primary:hover{
+    background:#a65b77;
+    border-color: #a65b77;
+}
+
+.btn:focus,.btn:active {
+    outline: none !important;
+    box-shadow: none !important;background:#a7154a !important;
+ }
+
+#comment{
+    background-color: #1A2E33;
+    border-color: cyan;
+    color: white;
+}

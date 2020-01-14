@@ -12,6 +12,13 @@ import { RazonesComponent } from './razones/razones.component';
 import { FooterComponent } from './footer/footer.component';
 import { PollComponent } from './poll/poll.component';
 import { SpacerComponent } from './spacer/spacer.component';
+import { HttpClientModule } from '@angular/common/http';
+import { OpinionService } from './opinion.service';
+import { Opinion } from './opinion';
+import { FormsModule } from '@angular/forms';
+import {  ToastrModule } from 'ngx-toastr';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MainPageComponent } from './main-page/main-page.component';
 
 @NgModule({
   declarations: [
@@ -24,14 +31,19 @@ import { SpacerComponent } from './spacer/spacer.component';
     RazonesComponent,
     FooterComponent,
     PollComponent,
-    SpacerComponent
+    SpacerComponent,
+    MainPageComponent
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     TooltipModule.forRoot(),
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    BrowserAnimationsModule,
+    ToastrModule.forRoot()
   ],
-  providers: [],
+  providers: [Opinion,OpinionService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -14,3 +14,17 @@
     width: 200px;
    fill: #eeeeee; /* Old browsers */
   }
+
+  .link-text{
+    color:#f35e95;
+    -webkit-transition: ease 0.5s; /* Safari */
+  transition: ease 0.5s;
+}
+
+.link-text:hover{
+    color:#c49cf0;
+}
+
+.white{
+    color:white;
+}
